@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bryan's Café</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="about.html" class="logo">Bryan's Café</a>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html" target="_blank">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <!-- Formulário de Contato -->
+        <section class="contact-form-section">
+            <h2>Enquiry Form</h2>
+            <form id="contact-form">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Message Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message Body</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+
+        <!-- Informações das Filiais -->
+        <section class="branches-section">
+            <h2>Our Branches</h2>
+            <div class="branch">
+                <h3>Surry Hills</h3>
+                <p>76 Devonshire St, Surry Hills NSW</p>
+                <p><strong>Contact:</strong> 02 9211 1234</p>
+                <p><strong>Opening Hours:</strong> Mon - Fri: 6:00 to 14:30, Sat-Sun: 7:00 to 15:00</p>
+                <a href="https://www.google.com/maps/place/76+Devonshire+St,+Surry+Hills+NSW+2010" target="_blank" class="map-link">View on Google Maps</a>
+            </div>
+            <div class="branch">
+                <h3>Haymarket</h3>
+                <p>451 Pitt St, Haymarket Sydney, NSW</p>
+                <p><strong>Contact:</strong> 02 9262 5678</p>
+                <p><strong>Opening Hours:</strong> Mon - Fri: 6:00 to 16:00, Sat-Sun: 7:00 to 15:00</p>
+                <a href="https://www.google.com/maps/place/451+Pitt+St,+Haymarket+NSW+2000" target="_blank" class="map-link">View on Google Maps</a>
+            </div>
+            <div class="branch">
+                <h3>Circular Quay</h3>
+                <p>31 Alfred Street, Circular Quay, NSW</p>
+                <p><strong>Contact:</strong> 02 8971 9101</p>
+                <p><strong>Opening Hours:</strong> Mon - Fri: 6:00 to 16:00, Sat-Sun: 7:00 to 15:00</p>
+                <a href="https://www.google.com/maps/place/31+Alfred+St,+Sydney+NSW+2000" target="_blank" class="map-link">View on Google Maps</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">@<span id="current-year"></span> Bryan's Café</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

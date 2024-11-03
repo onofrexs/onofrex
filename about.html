@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Bryan's Café</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="about.html" class="logo">Bryan's Café</a>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html" target="_blank">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Welcome to Bryan's Café</h1>
+            <p>Your cozy corner for the finest coffee and pastries.</p>
+            <a href="menu.html" class="banner-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- Seção "About Us" com imagem e conteúdo alinhados lado a lado -->
+        <section class="highlight-section">
+            <div class="highlight-image">
+                <img src="cafe.webp" alt="About Bryan's Café">
+            </div>
+            <div class="highlight-content">
+                <h2>About Us</h2>
+                <h3>We practice transparent dialogue</h3>
+                <p>We are committed to leaving a positive legacy for the communities where we operate and society in general. Discover what we are doing in pursuit of sustainable results and our actions in the areas of Environment, Social, and Governance (ESG).</p>
+                <!-- Botão que leva à seção "Our History" -->
+                <a href="#our-history" class="highlight-button">There is our story, mate!</a>
+            </div>
+        </section>
+
+        <main>
+            <!-- Seção "About Us" permanece igual -->
+            
+            <!-- Seção "Our History" com botão para carregar mais informações -->
+            <section id="our-history" class="highlight-section">
+                <div class="highlight-image">
+                    <img src="DALL·E 2024-11-03 13.59.10 - A Halloween scene with pumpkins in a medieval-style setting. The pumpkins are carved with eerie, intricate faces, illuminated by flickering candleligh.webp" alt="History of Bryan's Café">
+                </div>
+                <div class="highlight-content">
+                    <h2>Our History</h2>
+                    <p>A brief history of the café with another random image.</p>
+                    
+                    
+                    <!-- Botão para mostrar mais informações -->
+                    <button id="toggleHistoryBtn" class="highlight-button">Learn More</button>
+                    
+                    <!-- Conteúdo adicional oculto inicialmente -->
+                    <div id="extraHistoryContent" class="extra-content">
+                        <p>Our café was established in 1998 with the goal of providing a cozy, warm environment for coffee lovers. We have a deep-rooted commitment to quality, using only the finest beans and ingredients in our offerings.</p>
+                        <p>Our journey has been one of dedication, hard work, and a passion for coffee and community.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+
+    <footer>
+        <p id="footer-text">@<span id="current-year"></span> Bryan's Café</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Bryan's Café</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="about.html" class="logo">Bryan's Café</a>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy.html" target="_blank">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Our Menu</h1>
+
+        <!-- Meals Section with Cards -->
+        <section class="menu-section">
+            <h2>Meals</h2>
+            <div class="menu-cards">
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <img src="beetrot and fetta cheese.webp" alt="Beetroot and Feta Salad">
+                    <div class="card-content">
+                        <h3>Beetroot and Feta Salad</h3>
+                        <p class="price">$15.00</p>
+                        <p class="description">Suitable for vegetarians, made with fresh beetroot.</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <img src="sandwich.webp" alt="Sourdough Rye Sandwich">
+                    <div class="card-content">
+                        <h3>Sourdough Rye Sandwich</h3>
+                        <p class="price">$18.00</p>
+                        <p class="description">Cheese and salad sandwich made with organic sourdough rye bread.</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <img src="spinach.webp" alt="Spinach Pie and Salad">
+                    <div class="card-content">
+                        <h3>Spinach Pie and Salad</h3>
+                        <p class="price">$20.00</p>
+                        <p class="description">Tasty pie with salad.</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="menu-card">
+                    <img src="pankake.webp" alt="Feta Pancakes with Salad">
+                    <div class="card-content">
+                        <h3>Feta Pancakes with Salad</h3>
+                        <p class="price">$19.50</p>
+                        <p class="description">Tasty pancake filled with feta and salad.</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coffee and Hot Chocolates Section with Size Options -->
+        <section class="menu-section">
+            <h2>Coffee and Hot Chocolates</h2>
+            <div class="menu-cards">
+                <!-- Small Coffee Card -->
+                <div class="menu-card">
+                    <img src="regular.webp" alt="Small Coffee">
+                    <div class="card-content">
+                        <h3>Small Coffee</h3>
+                        <p class="price">$3.50</p>
+                        <p class="description">For coffee, please inform the staff of the coffee type.</p>
+                        <span class="size-icon">☕ Small</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <!-- Regular Coffee Card -->
+                <div class="menu-card">
+                    <img src="medium.webp" alt="Regular Coffee">
+                    <div class="card-content">
+                        <h3>Regular Coffee</h3>
+                        <p class="price">$4.00</p>
+                        <p class="description">For coffee, please inform the staff of the coffee type.</p>
+                        <span class="size-icon">☕ Regular</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <!-- Large Coffee Card -->
+                <div class="menu-card">
+                    <img src="medium.webp" alt="Large Coffee">
+                    <div class="card-content">
+                        <h3>Large Coffee</h3>
+                        <p class="price">$4.50</p>
+                        <p class="description">For coffee, please inform the staff of the coffee type.</p>
+                        <span class="size-icon">☕ Large</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Beverages Section with Cards -->
+        <section class="menu-section">
+            <h2>Other Beverages</h2>
+            <div class="menu-cards">
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <img src="soda.webp" alt="Soda">
+                    <div class="card-content">
+                        <h3>Soda</h3>
+                        <p class="price">$3.00</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <img src="fresh juice.webp" alt="Fresh Juice">
+                    <div class="card-content">
+                        <h3>Fresh Juice</h3>
+                        <p class="price">$6.00</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <img src="water.webp" alt="Bottled Water">
+                    <div class="card-content">
+                        <h3>Bottled Water</h3>
+                        <p class="price">$2.00</p>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">@<span id="current-year"></span> Bryan's Café</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

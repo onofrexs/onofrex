@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE branches SYSTEM "branches.dtd">
+<branches>
+    <branch>
+        <name>Surry Hills</name>
+        <address>76 Devonshire St, Surry Hills NSW</address>
+        <contact>02 9211 1234</contact>
+        <hours>Mon - Fri: 6:00 to 14:30, Sat-Sun: 7:00 to 15:00</hours>
+        <map>https://www.google.com/maps/place/76+Devonshire+St,+Surry+Hills+NSW+2010</map>
+    </branch>
+    <branch>
+        <name>Haymarket</name>
+        <address>451 Pitt St, Haymarket Sydney, NSW</address>
+        <contact>02 9262 5678</contact>
+        <hours>Mon - Fri: 6:00 to 16:00, Sat-Sun: 7:00 to 15:00</hours>
+        <map>https://www.google.com/maps/place/451+Pitt+St,+Haymarket+NSW+2000</map>
+    </branch>
+    <branch>
+        <name>Circular Quay</name>
+        <address>31 Alfred Street, Circular Quay, NSW</address>
+        <contact>02 8971 9101</contact>
+        <hours>Mon - Fri: 6:00 to 16:00, Sat-Sun: 7:00 to 15:00</hours>
+        <map>https://www.google.com/maps/place/31+Alfred+St,+Sydney+NSW+2000</map>
+    </branch>
+</branches>
